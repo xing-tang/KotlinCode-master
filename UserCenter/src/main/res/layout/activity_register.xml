@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/register_input_phone_number"
+            android:id="@+id/registerPhoneNumberEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -49,7 +49,7 @@
             android:layout_marginTop="30dp">
 
             <EditText
-                android:id="@+id/register_input_verfiycode_code"
+                android:id="@+id/registerVerfiycodeCodeEt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -96,7 +96,7 @@
             android:layout_marginBottom="11dp">
 
             <EditText
-                android:id="@+id/register_input_password"
+                android:id="@+id/registerPasswordEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -144,7 +144,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/register_input_verfiycode_btn_next"
+        android:id="@+id/registerBtn"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -154,7 +154,6 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="43dp"
         android:background="@drawable/common_btn_grey_circle"
-        android:enabled="false"
         android:text="下一步"
         android:textColor="@color/white"
         android:textSize="16sp" />

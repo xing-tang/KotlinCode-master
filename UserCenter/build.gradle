@@ -3,6 +3,9 @@ if(isUserModule.toBoolean()){//模块化
 }else{
     apply plugin: 'com.android.application'
 }
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion compile_sdk_version
@@ -38,13 +41,19 @@ android {
         }
     }
 
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
-    implementation project(':BaseLibrary')
+    implementation project(':Provider')
+    // Dagger2
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+
 }
 
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+
