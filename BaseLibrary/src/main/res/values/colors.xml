@@ -1,0 +1,18 @@
+<resources>
+
+    <!--通用颜色-->
+    <color name="blue_light">#35a2e7</color>
+    <color name="gold">#ffd600</color>
+    <color name="blue_dark">#2b3643</color>
+    <color name="green">#41ca7e</color>
+    <color name="red">#ef4c4c</color>
+    <color name="grey_dark">#4d6b6c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="purple">#af67e6</color>
+
+    <!--通用分隔线-->
+    <color name="common_listview_divider">#e0e1e5</color>
+    <color name="grey_listview_divider">#ebecf1</color>
+
+</resources>

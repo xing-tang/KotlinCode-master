@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mBooleanTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Boolean!" />
+
+    <TextView
+        android:id="@+id/mDoubleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Double!" />
+
+    <TextView
+        android:id="@+id/mFloatTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Float!" />
+
+    <TextView
+        android:id="@+id/mLongTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Long!" />
+
+    <TextView
+        android:id="@+id/mIntTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Int!" />
+
+    <TextView
+        android:id="@+id/mShortTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Short!" />
+
+    <TextView
+        android:id="@+id/mByteTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Byte!" />
+
+    <TextView
+        android:id="@+id/mCharTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Char!" />
+
+    <TextView
+        android:id="@+id/mTransitionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Char!" />
+
+    <TextView
+        android:id="@+id/mStringTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Char!" />
+
+    <TextView
+        android:id="@+id/mCompareTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello Char!" />
+
+
+</LinearLayout>
